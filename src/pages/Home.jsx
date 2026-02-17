@@ -40,7 +40,6 @@ export default function Home() {
         </Button>
       </div>
 
-      {/* Product image carousel */}
       {loading ? (
         <Spinner animation="border" role="status" />
       ) : (
